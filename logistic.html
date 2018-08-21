@@ -3,323 +3,259 @@
 
 <head>
     <title>Логистика</title>
-  <!--Import Google Icon Font-->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <!--Import materialize.css-->
-  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
-  <link rel="stylesheet" href="css/style.css">
-  <!--Let browser know website is optimized for mobile-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link rel="stylesheet" href="css/style.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
 <body>
-  <div class="container">
-    <div class="row">
-      <div class="col m12 blue darken-4">1</div>
-    </div>
-    <div class="row">
-      <div class="col m12">
+    <div class="container">
         <div class="row">
-          <div class="col m3 grey darken-4 white-text menu">
-            <div class="row"></div>
-            <div class="row pt-1">
-              <div class="col s12">
-                <a class=" waves-light btn-menu btn-large ">Рацион</a>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col s12">
-                <a class=" waves-light btn-menu btn-large ">Логистика</a>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col s12">
-                <a class=" waves-light btn-menu btn-large">Экономика</a>
-              </div>
-            </div>
-            <div class="row"></div>
-          </div>
-          <div class="col m9">
-            <!-- first screen -->
-            <div class="row">
-              <div class="col-md-12">
-                <div class="row">
-                  <div class="col s12 text-center">
-                    <h4 class="center-align">Рацион</h4>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col s12">
-                    <p class="center-align">Выбор кормов</p>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col s12 center-align">
-                    Название организации:
-                    <div class="input-field inline">
-                      <input id="name" type="email" class="validate">
-                      <label for="name">Название</label>
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col s12 center-align">
-                    Количество голов в хозяйстве:
-                    <div class="input-field inline">
-                      <input id="count" type="email" class="validate">
-                      <label for="count">Кол-во</label>
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col s12 right">
-                    <table>
-                      <thead>
-                        <tr>
-                          <th class="center-align">Выбор</th>
-                          <th class="center-align">Выбор кормов</th>
-                          <th class="center-align">Цена(BYN/кг)</th>
-                        </tr>
-                      </thead>
-
-                      <tbody>
-                        <tr>
-                          <td>
-                            <label>
-                              <input type="checkbox" />
-                              <span></span>
-                            </label>
-                          </td>
-                          <td>Солома ячменная</td>
-                          <td>0.05</td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <label>
-                              <input type="checkbox" />
-                              <span></span>
-                            </label>
-                          </td>
-                          <td>Сенаж злаково-разнотравный</td>
-                          <td>0.07</td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <label>
-                              <input type="checkbox" />
-                              <span></span>
-                            </label>
-                          </td>
-                          <td>Силос кукурузный</td>
-                          <td>0.07</td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <label>
-                              <input type="checkbox" />
-                              <span></span>
-                            </label>
-                          </td>
-                          <td>Патока кормовая</td>
-                          <td>1</td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <label>
-                              <input type="checkbox" />
-                              <span></span>
-                            </label>
-                          </td>
-                          <td>Жом свекловичный свежий</td>
-                          <td>0.075</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-                <div class="row pt-2 pb-2">
-                  <div class="col s12">
-                    <button class="btn right waves-effect waves-light" type="submit" name="action">Далее
-                      <i class="material-icons right">send</i>
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- second screen -->
-            <div class="row">
-              <div class="col m12">
-                <div class="row">
-                  <div class="col s12 text-center">
-                    <h4 class="center-align">Рацион</h4>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col s12">
-                    <p class="center-align">Категория кормления</p>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col s12 center-align">
-                    Вес:
-                    <div class="input-field inline">
-                      <input id="name_onefetts" type="email" class="validate">
-                      <label for="name_onefetts">Название</label>
-                    </div>
-                    <span>кг</span>
-                  </div>
-                </div>
-                <div class="row pt-2">
-                  <div class="col s1">
-                    <span>Удой:</span>
-                  </div>
-                  <div class="col s10">
-                    <form action="#">
-                      <p class="range-field" style="margin-top: 0;">
-                        <input type="range" id="test5" min="0" max="100" />
-                      </p>
-                    </form>
-                  </div>
-                  <div class="col s1">
-                    <span>кг</span>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col s12 center-align">
-                    Жирность:
-                    <div class="input-field inline">
-                      <input id="fetts" type="email" class="validate">
-                      <label for="fetts">Жирность</label>
-                    </div>
-                    <span>%</span>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col s12 center-align">
-                    Белок:
-                    <div class="input-field inline">
-                      <input id="spore" type="email" class="validate">
-                      <label for="spore">Белок</label>
-                    </div>
-                    <span>%</span>
-                  </div>
-                </div>
-                <div class="row pt-2">
-                  <div class="col s6">
-                    <button class="btn left waves-effect waves-light" type="submit" name="action">Назад
-                      <i class="material-icons left">backspace</i>
-                    </button>
-                  </div>
-                  <div class="col s6">
-                    <button class="btn right waves-effect waves-light" type="submit" name="action">Далее
-                      <i class="material-icons right">send</i>
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- third screen -->
-            <div class="row">
-              <div class="col-md-12">
-                <div class="row">
-                  <div class="col s12 text-center">
-                    <h4 class="center-align">Рацион</h4>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col s12">
-                    <p class="center-align">Результаты лабораторных анализов кормов</p>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col s12">
-                    <table>
-                      <thead>
-                        <tr>
-                          <th>Корм</th>
-                          <th>СВ(кг)</th>
-                          <th>СП(кг)</th>
-                          <th>СЖ(кг)</th>
-                          <th>СК(кг)</th>
-                        </tr>
-                      </thead>
-
-                      <tbody>
-                        <tr>
-                          <td>Alvin</td>
-                          <td>Eclair</td>
-                          <td>$0.87</td>
-                          <td>Eclair</td>
-                          <td>$0.87</td>
-                        </tr>
-                        <tr>
-                          <td>Alan</td>
-                          <td>Jellybean</td>
-                          <td>$3.76</td>
-                          <td>Eclair</td>
-                          <td>$0.87</td>
-                        </tr>
-                        <tr>
-                          <td>Jonathan</td>
-                          <td>Lollipop</td>
-                          <td>$7.00</td>
-                          <td>Eclair</td>
-                          <td>$0.87</td>
-                        </tr>
-                        <tr>
-                          <td>Jonathan</td>
-                          <td>Lollipop</td>
-                          <td>$7.00</td>
-                          <td>Eclair</td>
-                          <td>$0.87</td>
-                        </tr>
-                        <tr>
-                          <td>Jonathan</td>
-                          <td>Lollipop</td>
-                          <td>$7.00</td>
-                          <td>Eclair</td>
-                          <td>$0.87</td>
-                        </tr>
-                        <tr>
-                          <td>Jonathan</td>
-                          <td>Lollipop</td>
-                          <td>$7.00</td>
-                          <td>Eclair</td>
-                          <td>$0.87</td>
-                        </tr>
-                        <tr>
-                          <td>Jonathan</td>
-                          <td>Lollipop</td>
-                          <td>$7.00</td>
-                          <td>Eclair</td>
-                          <td>$0.87</td>
-                        </tr>
-                      </tbody>
-                    </table>
-
-                  </div>
-                </div>
-                <div class="row pt-2">
-                  <div class="col s6">
-                    <button class="btn left waves-effect waves-light" type="submit" name="action">Назад
-                      <i class="material-icons left">backspace</i>
-                    </button>
-                  </div>
-                  <div class="col s6">
-                    <button class="btn right waves-effect waves-light" type="submit" name="action">Рассчитать
-                      <i class="material-icons right">keyboard</i>
-                    </button>
-                  </div>
-                </div>
-              </div>
-              <!-- fourth -->
-              <div class="row"></div>
-            </div>
-          </div>
+            <div class="col m12 blue darken-4">1</div>
         </div>
-      </div>
-    </div>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
+        <div class="row">
+            <div class="col m12">
+                <div class="row">
+                    <div class="col m3 grey darken-4 white-text menu">
+                        <div class="row"></div>
+                        <div class="row pt-1">
+                            <div class="col s12">
+                                <a class=" waves-light btn-menu btn-large ">Рацион</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col s12">
+                                <a class=" waves-light btn-menu btn-large ">Логистика</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col s12">
+                                <a class=" waves-light btn-menu btn-large">Экономика</a>
+                            </div>
+                        </div>
+                        <div class="row"></div>
+                    </div>
+                    <div class="col m9">
+                        <!-- first screen -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col s12 text-center">
+                                        <h4 class="center-align">Логистика</h4>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- second screen -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col s12 text-center">
+                                        <p class="center-align">Исходные данные</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col s12">
+                                        <table>
+                                            <thead>
+                                                <tr>
+                                                    <th>Корм</th>
+                                                    <th>СВ(кг)</th>
+                                                    <th>СП(кг)</th>
+                                                    <th>СЖ(кг)</th>
+                                                    <th>СК(кг)</th>
+                                                </tr>
+                                            </thead>
+
+                                            <tbody>
+                                                <tr>
+                                                    <td>Alvin</td>
+                                                    <td>Eclair</td>
+                                                    <td>$0.87</td>
+                                                    <td>Eclair</td>
+                                                    <td>$0.87</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Alan</td>
+                                                    <td>Jellybean</td>
+                                                    <td>$3.76</td>
+                                                    <td>Eclair</td>
+                                                    <td>$0.87</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Jonathan</td>
+                                                    <td>Lollipop</td>
+                                                    <td>$7.00</td>
+                                                    <td>Eclair</td>
+                                                    <td>$0.87</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Jonathan</td>
+                                                    <td>Lollipop</td>
+                                                    <td>$7.00</td>
+                                                    <td>Eclair</td>
+                                                    <td>$0.87</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Jonathan</td>
+                                                    <td>Lollipop</td>
+                                                    <td>$7.00</td>
+                                                    <td>Eclair</td>
+                                                    <td>$0.87</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Jonathan</td>
+                                                    <td>Lollipop</td>
+                                                    <td>$7.00</td>
+                                                    <td>Eclair</td>
+                                                    <td>$0.87</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Jonathan</td>
+                                                    <td>Lollipop</td>
+                                                    <td>$7.00</td>
+                                                    <td>Eclair</td>
+                                                    <td>$0.87</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+
+                                    </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col s12 center-align">
+                                            Период кормления:
+                                          <div class="input-field inline">
+                                            <input id="count" type="email" class="validate">
+                                            <label for="count">дней</label>
+                                            </div>
+                                          <span>дней</span>
+                                        </div>
+                                      </div>
+                                <div class="row pt-2">
+                                    <div class="col s10">
+                                        <button class="btn left waves-effect  waves-light" style="width: 100%" type="submit" name="action">Рассчитать
+                                            <i class="material-icons left">backspace</i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- fourth -->
+                            <div class="row"></div>
+                        </div>
+                        <!-- third screen -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col s12 text-center">
+                                        <h4 class="center-align">Логистика</h4>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col s12">
+                                        <h6 class="center-align">Остатки</h6>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col s12">
+                                        <p class="center-align">При данном рационе кормов хватит на
+                                            <span>6</span> дней</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col s12">
+                                        <p class="center-align">Остатки кормов в данном составе корма</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col s12">
+                                        <table>
+                                            <thead>
+                                                <tr>
+                                                    <th>Корм</th>
+                                                    <th>СВ(кг)</th>
+                                                    <th>СП(кг)</th>
+                                                    <th>СЖ(кг)</th>
+                                                    <th>СК(кг)</th>
+                                                </tr>
+                                            </thead>
+
+                                            <tbody>
+                                                <tr>
+                                                    <td>Alvin</td>
+                                                    <td>Eclair</td>
+                                                    <td>$0.87</td>
+                                                    <td>Eclair</td>
+                                                    <td>$0.87</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Alan</td>
+                                                    <td>Jellybean</td>
+                                                    <td>$3.76</td>
+                                                    <td>Eclair</td>
+                                                    <td>$0.87</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Jonathan</td>
+                                                    <td>Lollipop</td>
+                                                    <td>$7.00</td>
+                                                    <td>Eclair</td>
+                                                    <td>$0.87</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Jonathan</td>
+                                                    <td>Lollipop</td>
+                                                    <td>$7.00</td>
+                                                    <td>Eclair</td>
+                                                    <td>$0.87</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Jonathan</td>
+                                                    <td>Lollipop</td>
+                                                    <td>$7.00</td>
+                                                    <td>Eclair</td>
+                                                    <td>$0.87</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Jonathan</td>
+                                                    <td>Lollipop</td>
+                                                    <td>$7.00</td>
+                                                    <td>Eclair</td>
+                                                    <td>$0.87</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Jonathan</td>
+                                                    <td>Lollipop</td>
+                                                    <td>$7.00</td>
+                                                    <td>Eclair</td>
+                                                    <td>$0.87</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+
+                                    </div>
+                                </div>
+                                <div class="row pt-2">
+                                    <div class="col s10">
+                                        <button class=  "btn left waves-effect  waves-light" style="width: 100%" type="submit" name="action">Назад
+                                            <i class="material-icons left">backspace</i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- fourth -->
+                            <div class="row"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="js/materialize.min.js"></script>
 </body>
 
 </html>
