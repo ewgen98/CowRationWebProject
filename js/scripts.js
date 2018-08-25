@@ -11,10 +11,10 @@ noUiSlider.create(sliderFormat, {
   },
   format: {
     to: function(value) {
-      return value + " BYN";
+      return value + "%";
     },
     from: function(value) {
-      return value.replace("BYN", "");
+      return value.replace("%", "");
     }
   },
   pips: {
@@ -46,10 +46,10 @@ noUiSlider.create(sliderFormat1, {
   },
   format: {
     to: function(value) {
-      return value + " BYN";
+      return value + "%";
     },
     from: function(value) {
-      return value.replace("BYN", "");
+      return value.replace("%", "");
     }
   },
   pips: {
@@ -81,10 +81,10 @@ noUiSlider.create(sliderFormat2, {
   },
   format: {
     to: function(value) {
-      return value + " BYN";
+      return value + "%";
     },
     from: function(value) {
-      return value.replace("BYN", "");
+      return value.replace("%", "");
     }
   },
   pips: {
