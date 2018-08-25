@@ -7,302 +7,304 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!--Import materialize.css-->
   <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
-  <link rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/nouislider.css">
+  <link type="text/css" rel="stylesheet" href="css/style.css">
   <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
 <body>
-  <div class="container">
-    <div class="row">
-      <div class="col m12 blue darken-4">1</div>
-    </div>
-    <div class="row">
-      <div class="col m12">
-        <div class="row">
-          <div class="col m3 grey darken-4 white-text menu">
-            <div class="row"></div>
-            <div class="row pt-1">
-              <div class="col s12">
-                <a class=" waves-light btn-menu btn-large ">Рацион</a>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col s12">
-                <a class=" waves-light btn-menu btn-large ">Логистика</a>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col s12">
-                <a class=" waves-light btn-menu btn-large">Экономика</a>
-              </div>
-            </div>
-            <div class="row"></div>
-          </div>
-          <div class="col m9">
-            <!-- first screen -->
-            <div class="row pt-1">
-              <div class="col-md-12">
-                <div class="row">
-                  <div class="col s12 text-center">
-                    <h4 class="center-align">Рацион</h4>
-                  </div>
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col m12 blue darken-4">1</div>
+      </div>
+      <div class="row">
+        <div class="col m12">
+          <div class="row">
+            <div class="col m3 grey darken-4 white-text menu">
+              <div class="row"></div>
+              <div class="row pt-1">
+                <div class="col s12">
+                  <a class=" waves-light btn-menu btn-large ">Рацион</a>
                 </div>
-                <div class="row">
-                  <div class="col s12">
-                    <p class="center-align desc">Выбор кормов</p>
-                  </div>
+              </div>
+              <div class="row">
+                <div class="col s12">
+                  <a class=" waves-light btn-menu btn-large ">Логистика</a>
                 </div>
-                <div class="row">
-                  <div class="col s12 center-align">
-                    Название организации:
-                    <div class="input-field inline">
-                      <input id="name" type="email" class="validate">
-                      <label for="name">Название</label>
+              </div>
+              <div class="row">
+                <div class="col s12">
+                  <a class=" waves-light btn-menu btn-large">Экономика</a>
+                </div>
+              </div>
+              <div class="row"></div>
+            </div>
+            <div class="col m9">
+              <!-- first screen -->
+              <div class="row pt-1">
+                <div class="col-md-12">
+                  <div class="row">
+                    <div class="col s12 text-center">
+                      <h3 class="center-align">Рацион</h3>
                     </div>
                   </div>
-                </div>
-                <div class="row">
-                  <div class="col s12 center-align">
-                    Количество голов в хозяйстве:
-                    <div class="input-field inline">
-                      <input id="count" type="email" class="validate">
-                      <label for="count">Кол-во</label>
+                  <div class="row">
+                    <div class="col s12">
+                      <p class="center-align desc">Выбор кормов</p>
                     </div>
                   </div>
-                </div>
-                <div class="row">
-                  <div class="col s12 right">
-                    <table>
-                      <thead>
-                        <tr>
-                          <th class="center-align">Выбор</th>
-                          <th class="center-align">Выбор кормов</th>
-                          <th class="center-align">Цена(BYN/кг)</th>
-                        </tr>
-                      </thead>
+                  <div class="row">
+                    <div class="col s12 center-align">
+                      Название организации:
+                      <div class="input-field inline">
+                        <input id="name" type="email" class="validate">
+                        <label for="name">Название</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col s12 center-align">
+                      Количество голов в хозяйстве:
+                      <div class="input-field inline">
+                        <input id="count" type="email" class="validate">
+                        <label for="count">Кол-во</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col s12 right">
+                      <table>
+                        <thead>
+                          <tr>
+                            <th class="center-align">Выбор</th>
+                            <th class="center-align">Выбор кормов</th>
+                            <th class="center-align">Цена(BYN/кг)</th>
+                          </tr>
+                        </thead>
 
-                      <tbody>
-                        <tr>
-                          <td>
-                            <label>
-                              <input type="checkbox" />
-                              <span></span>
-                            </label>
-                          </td>
-                          <td>Солома ячменная</td>
-                          <td>0.05</td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <label>
-                              <input type="checkbox" />
-                              <span></span>
-                            </label>
-                          </td>
-                          <td>Сенаж злаково-разнотравный</td>
-                          <td>0.07</td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <label>
-                              <input type="checkbox" />
-                              <span></span>
-                            </label>
-                          </td>
-                          <td>Силос кукурузный</td>
-                          <td>0.07</td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <label>
-                              <input type="checkbox" />
-                              <span></span>
-                            </label>
-                          </td>
-                          <td>Патока кормовая</td>
-                          <td>1</td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <label>
-                              <input type="checkbox" />
-                              <span></span>
-                            </label>
-                          </td>
-                          <td>Жом свекловичный свежий</td>
-                          <td>0.075</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- second screen -->
-            <div class="row pt-3">
-              <div class="col m12">
-                <div class="row">
-                  <div class="col s12">
-                    <p class="center-align desc">Категория кормления</p>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col s12 center-align killo">
-                    <span>Вес:</span>
-                    <div class="input-field inline">
-                      <input id="name_onefetts" type="email" class="validate">
-                      <label for="name_onefetts">Название</label>
-                    </div>
-                    <span>кг</span>
-                  </div>
-                </div>
-                <div class="row pt-2">
-                  <div class="col s1 killo">
-                    <span>Удой:</span>
-                  </div>
-                  <div class="col s10">
-                    <form action="#">
-                      <p class="range-field" style="margin-top: 0;">
-                        <input type="range" id="test5" min="0" max="100" />
-                      </p>
-                    </form>
-                  </div>
-                  <div class="col s1 killo">
-                    <span>кг</span>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col s12 center-align killo">
-                    <span>Жирность:</span>
-                    <div class="input-field inline">
-                      <input id="fetts" type="email" class="validate">
-                      <label for="fetts">Жирность</label>
-                    </div>
-                    <span>(%)</span>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col s12 center-align killo">
-                    <span>Белок:</span>
-                    <div class="input-field inline">
-                      <input id="spore" type="email" class="validate">
-                      <label for="spore">Белок</label>
-                    </div>
-                    <span>(%)</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- third screen -->
-            <div class="row pt-3">
-              <div class="col-md-12">
-                <div class="row">
-                  <div class="col s12">
-                    <p class="center-align desc">Результаты лабораторных анализов кормов</p>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col s12">
-                    <table>
-                      <thead>
-                        <tr>
-                          <th>Корм</th>
-                          <th>СВ(кг)</th>
-                          <th>СП(кг)</th>
-                          <th>СЖ(кг)</th>
-                          <th>СК(кг)</th>
-                        </tr>
-                      </thead>
-
-                      <tbody>
-                        <tr>
-                          <td>Alvin</td>
-                          <td>Eclair</td>
-                          <td>$0.87</td>
-                          <td>Eclair</td>
-                          <td>$0.87</td>
-                        </tr>
-                        <tr>
-                          <td>Alan</td>
-                          <td>Jellybean</td>
-                          <td>$3.76</td>
-                          <td>Eclair</td>
-                          <td>$0.87</td>
-                        </tr>
-                        <tr>
-                          <td>Jonathan</td>
-                          <td>Lollipop</td>
-                          <td>$7.00</td>
-                          <td>Eclair</td>
-                          <td>$0.87</td>
-                        </tr>
-                        <tr>
-                          <td>Jonathan</td>
-                          <td>Lollipop</td>
-                          <td>$7.00</td>
-                          <td>Eclair</td>
-                          <td>$0.87</td>
-                        </tr>
-                        <tr>
-                          <td>Jonathan</td>
-                          <td>Lollipop</td>
-                          <td>$7.00</td>
-                          <td>Eclair</td>
-                          <td>$0.87</td>
-                        </tr>
-                        <tr>
-                          <td>Jonathan</td>
-                          <td>Lollipop</td>
-                          <td>$7.00</td>
-                          <td>Eclair</td>
-                          <td>$0.87</td>
-                        </tr>
-                        <tr>
-                          <td>Jonathan</td>
-                          <td>Lollipop</td>
-                          <td>$7.00</td>
-                          <td>Eclair</td>
-                          <td>$0.87</td>
-                        </tr>
-                      </tbody>
-                    </table>
-
-                  </div>
-                </div>
-                <div class="row pt-2">
-                  <div class="col s12 pt-2 pb-2">
-                    <button class="btn waves-effect waves-light" type="submit" name="action">Рассчитать
-                      <i class="material-icons right">keyboard</i>
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- fourth screen -->
-            <div class="row pt-3">
-              <div class="col-md-12">
-                <div class="row">
-                  <div class="col s12">
-                    <p class="center-align desc">Рацион</p>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col s12">
-                    <table>
-                      <thead>
-                        <tr>
-                          <th>Корм</th>
-                          <th>Количество(кг/сутки)</th>
-                          <th>Стоимость(руб)</th>
-                        </tr>
-                      </thead>
-
-                      <tr>
                         <tbody>
-                          <td>Солома ячменная</td>
-                          <td>2</td>
-                          <td>0.1</td>
+                          <tr>
+                            <td>
+                              <label>
+                                <input type="checkbox" />
+                                <span></span>
+                              </label>
+                            </td>
+                            <td>Солома ячменная</td>
+                            <td>0.05</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <label>
+                                <input type="checkbox" />
+                                <span></span>
+                              </label>
+                            </td>
+                            <td>Сенаж злаково-разнотравный</td>
+                            <td>0.07</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <label>
+                                <input type="checkbox" />
+                                <span></span>
+                              </label>
+                            </td>
+                            <td>Силос кукурузный</td>
+                            <td>0.07</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <label>
+                                <input type="checkbox" />
+                                <span></span>
+                              </label>
+                            </td>
+                            <td>Патока кормовая</td>
+                            <td>1</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <label>
+                                <input type="checkbox" />
+                                <span></span>
+                              </label>
+                            </td>
+                            <td>Жом свекловичный свежий</td>
+                            <td>0.075</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- second screen -->
+              <div class="row pt-3">
+                <div class="col m12">
+                  <div class="row">
+                    <div class="col s12">
+                      <p class="center-align desc">Категория кормления</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col s12 center-align killo">
+                      <span>Вес:</span>
+                      <div class="input-field inline">
+                        <input id="name_onefetts" type="email" class="validate">
+                        <label for="name_onefetts">Название</label>
+                      </div>
+                      <span>кг</span>
+                    </div>
+                  </div>
+                  <div class="row pt-2">
+                    <div class="col s1 killo">
+                      <span>Удой:</span>
+                    </div>
+                    <div class="col s10">
+                      <form action="#">
+                        <p class="range-field" style="margin-top: 0;">
+                          <input type="range" id="test5" min="0" max="100" />
+                        </p>
+                      </form>
+                    </div>
+                    <div class="col s1 killo">
+                      <span>кг</span>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col s12 center-align killo">
+                      <span>Жирность:</span>
+                      <div class="input-field inline">
+                        <input id="fetts" type="email" class="validate">
+                        <label for="fetts">Жирность</label>
+                      </div>
+                      <span>(%)</span>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col s12 center-align killo">
+                      <span>Белок:</span>
+                      <div class="input-field inline">
+                        <input id="spore" type="email" class="validate">
+                        <label for="spore">Белок</label>
+                      </div>
+                      <span>(%)</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- third screen -->
+              <div class="row pt-3">
+                <div class="col-md-12">
+                  <div class="row">
+                    <div class="col s12">
+                      <p class="center-align desc">Результаты лабораторных анализов кормов</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col s12">
+                      <table>
+                        <thead>
+                          <tr>
+                            <th>Корм</th>
+                            <th>СВ(кг)</th>
+                            <th>СП(кг)</th>
+                            <th>СЖ(кг)</th>
+                            <th>СК(кг)</th>
+                          </tr>
+                        </thead>
+
+                        <tbody>
+                          <tr>
+                            <td>Alvin</td>
+                            <td>Eclair</td>
+                            <td>$0.87</td>
+                            <td>Eclair</td>
+                            <td>$0.87</td>
+                          </tr>
+                          <tr>
+                            <td>Alan</td>
+                            <td>Jellybean</td>
+                            <td>$3.76</td>
+                            <td>Eclair</td>
+                            <td>$0.87</td>
+                          </tr>
+                          <tr>
+                            <td>Jonathan</td>
+                            <td>Lollipop</td>
+                            <td>$7.00</td>
+                            <td>Eclair</td>
+                            <td>$0.87</td>
+                          </tr>
+                          <tr>
+                            <td>Jonathan</td>
+                            <td>Lollipop</td>
+                            <td>$7.00</td>
+                            <td>Eclair</td>
+                            <td>$0.87</td>
+                          </tr>
+                          <tr>
+                            <td>Jonathan</td>
+                            <td>Lollipop</td>
+                            <td>$7.00</td>
+                            <td>Eclair</td>
+                            <td>$0.87</td>
+                          </tr>
+                          <tr>
+                            <td>Jonathan</td>
+                            <td>Lollipop</td>
+                            <td>$7.00</td>
+                            <td>Eclair</td>
+                            <td>$0.87</td>
+                          </tr>
+                          <tr>
+                            <td>Jonathan</td>
+                            <td>Lollipop</td>
+                            <td>$7.00</td>
+                            <td>Eclair</td>
+                            <td>$0.87</td>
+                          </tr>
+                        </tbody>
+                      </table>
+
+                    </div>
+                  </div>
+                  <div class="row pt-2">
+                    <div class="col s12 pt-2 pb-2">
+                      <button class="btn waves-effect waves-light" type="submit" name="action">Рассчитать
+                        <i class="material-icons right">keyboard</i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- fourth screen -->
+              <div class="row pt-3">
+                <div class="col-md-12">
+                  <div class="row">
+                    <div class="col s12">
+                      <p class="center-align desc">Рацион</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col s12">
+                      <table>
+                        <thead>
+                          <tr>
+                            <th>Корм</th>
+                            <th>Количество(кг/сутки)</th>
+                            <th>Стоимость(руб)</th>
+                          </tr>
+                        </thead>
+
+                        <tr>
+                          <tbody>
+                            <td>Солома ячменная</td>
+                            <td>2</td>
+                            <td>0.1</td>
                         </tr>
                         <tr>
                           <td>Сенаж злаково-разнотравный</td>
@@ -344,15 +346,16 @@
                           <td>0.9</td>
                           <td>0.27</td>
                         </tr>
-                      </tbody>
-                    </table>
+                        </tbody>
+                      </table>
 
+                    </div>
                   </div>
-                </div>
-                <div class="row pt-2">
-                  <div class="col s12 pt-2 pb-2">
-                    <p class="center-align">Стоимость рациона
-                      <span>5.5135</span>(руб)</p>
+                  <div class="row pt-2">
+                    <div class="col s12 pt-2 pb-2">
+                      <p class="center-align">Стоимость рациона
+                        <span>5.5135</span>(руб)</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -360,8 +363,484 @@
           </div>
         </div>
       </div>
+  </section>
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col m12">
+          <div class="row">
+            <div class="col m9 right">
+              <hr>
+              <!-- first screen -->
+              <div class="row">
+                <div class="col-md-12 pt-3">
+                  <div class="row">
+                    <div class="col s12 text-center">
+                      <h3 class="center-align">Логистика</h3>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+              <!-- second screen -->
+              <div class="row">
+                <div class="col-md-12 pb-2 pt-3">
+                  <div class="row">
+                    <div class="col s12 text-center">
+                      <p class="center-align desc">Исходные данные</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col s12">
+                      <table>
+                        <thead>
+                          <tr>
+                            <th>Корм</th>
+                            <th>СВ(кг)</th>
+                            <th>СП(кг)</th>
+                            <th>СЖ(кг)</th>
+                            <th>СК(кг)</th>
+                          </tr>
+                        </thead>
+
+                        <tbody>
+                          <tr>
+                            <td>Alvin</td>
+                            <td>Eclair</td>
+                            <td>$0.87</td>
+                            <td>Eclair</td>
+                            <td>$0.87</td>
+                          </tr>
+                          <tr>
+                            <td>Alan</td>
+                            <td>Jellybean</td>
+                            <td>$3.76</td>
+                            <td>Eclair</td>
+                            <td>$0.87</td>
+                          </tr>
+                          <tr>
+                            <td>Jonathan</td>
+                            <td>Lollipop</td>
+                            <td>$7.00</td>
+                            <td>Eclair</td>
+                            <td>$0.87</td>
+                          </tr>
+                          <tr>
+                            <td>Jonathan</td>
+                            <td>Lollipop</td>
+                            <td>$7.00</td>
+                            <td>Eclair</td>
+                            <td>$0.87</td>
+                          </tr>
+                          <tr>
+                            <td>Jonathan</td>
+                            <td>Lollipop</td>
+                            <td>$7.00</td>
+                            <td>Eclair</td>
+                            <td>$0.87</td>
+                          </tr>
+                          <tr>
+                            <td>Jonathan</td>
+                            <td>Lollipop</td>
+                            <td>$7.00</td>
+                            <td>Eclair</td>
+                            <td>$0.87</td>
+                          </tr>
+                          <tr>
+                            <td>Jonathan</td>
+                            <td>Lollipop</td>
+                            <td>$7.00</td>
+                            <td>Eclair</td>
+                            <td>$0.87</td>
+                          </tr>
+                        </tbody>
+                      </table>
+
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col s12 center-align killo">
+                      <span>Период кормления:</span>
+                      <div class="input-field inline">
+                        <input id="count-day" type="email" class="validate">
+                        <label for="count-day">дней</label>
+                      </div>
+                      <span>дней</span>
+                    </div>
+                  </div>
+                  <div class="row pt-2">
+                    <div class="col s12">
+                      <button class="btn left waves-effect center waves-light" type="submit" name="action">Рассчитать
+                        <i class="material-icons left">keyboard</i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <!-- fourth -->
+                <div class="row"></div>
+              </div>
+              <!-- third screen -->
+              <div class="row">
+                <div class="col-md- pt-3 pb-2">
+                  <div class="row">
+                    <div class="col s12">
+                      <h6 class="center-align desc">Остатки</h6>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col s12">
+                      <p class="center-align desc-small">При данном рационе кормов хватит на
+                        <span>6</span> дней</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col s12">
+                      <p class="center-align desc-small">Остатки кормов в данном составе корма</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col s12">
+                      <table>
+                        <thead>
+                          <tr>
+                            <th>Вид корма</th>
+                            <th>Количество дней</th>
+                          </tr>
+                        </thead>
+
+                        <tbody>
+                          <tr>
+                            <td>Alvin</td>
+                            <td>Eclair</td>
+                          </tr>
+                          <tr>
+                            <td>Alan</td>
+                            <td>Jellybean</td>
+                          </tr>
+                          <tr>
+                            <td>Jonathan</td>
+                            <td>Lollipop</td>
+                          </tr>
+                          <tr>
+                            <td>Jonathan</td>
+                            <td>Lollipop</td>
+                          </tr>
+                          <tr>
+                            <td>Jonathan</td>
+                            <td>Lollipop</td>
+                          </tr>
+                          <tr>
+                            <td>Jonathan</td>
+                            <td>Lollipop</td>
+                          </tr>
+                          <tr>
+                            <td>Jonathan</td>
+                            <td>Lollipop</td>
+                          </tr>
+                        </tbody>
+                      </table>
+
+                    </div>
+                  </div>
+                </div>
+                <!-- fourth -->
+                <div class="row"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
+  </section>
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col m12">
+          <div class="row">
+            <div class="col m9 right pt-3">
+              <hr>
+              <!-- first screen -->
+              <div class="row">
+                <div class="col-md-12 pt-3">
+                  <div class="row">
+                    <div class="col s12 text-center pt-3 pb-2">
+                      <h3 class="center-align">Экономика</h3>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col s12">
+                      <p class="center-align desc">Исходные данные</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col s12 killo">
+                      <span>Общий объем проданного молока за год:</span>
+                      <div class="input-field inline">
+                        <input id="count-milk" type="email" class="validate">
+                        <label for="count-milk">Кол-во</label>
+                      </div>
+                      <span>(т)</span>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col s12 killo">
+                      <span>Средний суточный удой за пред. год:</span>
+                      <div class="input-field inline">
+                        <input id="average-milk" type="email" class="validate">
+                        <label for="average-milk">Кол-во</label>
+                      </div>
+                      <span>(кг)</span>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col s12 killo">
+                      <span>Фактическая жирность молока:</span>
+                      <div class="input-field inline">
+                        <input id="facts-milk" type="email" class="validate">
+                        <label for="facts-milk">Кол-во</label>
+                      </div>
+                      <span>(%)</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- second screen -->
+              <div class="row">
+                <div class="col m12">
+                  <div class="row">
+                    <div class="col s12 pt-3">
+                      <p class="center-align desc">Характеристики молока</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col s12 pb-2">
+                      <p class="center-align small-text">Структура сортности молока</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- third screen -->
+              <div class="row">
+                <div class="col s4 pb-2 pt-2">
+                  <span>Экстра</span>
+                  <div id="slider-format"></div>
+                  <input type="text" id="input-format">
+                </div>
+                <div class="col s4 pb-2 pt-2">
+                  <span>Первый</span>
+                  <div id="slider-format1"></div>
+                  <input type="text" id="input-format1">
+                </div>
+                <div class="col s4 pb-2 pt-2">
+                  <span>Первый</span>
+                  <div id="slider-format2"></div>
+                  <input type="text" id="input-format2">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col s12 killo">
+                  <span>Цена за 1 кг молока базисной жирности:</span>
+                  <div class="input-field inline">
+                    <input id="one-kilo" type="email" class="validate">
+                    <label for="one-kilo">Кол-во</label>
+                  </div>
+                  <span>(%)</span>
+                </div>
+              </div>
+              <!-- fourth -->
+              <div class="row">
+                <div class="col-md- pt-3 pb-2">
+                  <div class="row">
+                    <div class="col s12">
+                      <h6 class="center-align desc">Затраты</h6>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col s12 killo center-align">
+                      <span>Цена за 1 кг молока базисной жирности:</span>
+                      <div class="input-field inline">
+                        <input id="one-kilo-prev" type="email" class="validate">
+                        <label for="one-kilo-prev">Кол-во</label>
+                      </div>
+                      <span>(%)</span>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col s12 pb-2 pt-3">
+                      <table>
+                        <thead>
+                          <tr>
+                            <th>Статья затрат</th>
+                            <th>Сумма(BYN)</th>
+                            <th>%</th>
+                          </tr>
+                        </thead>
+
+                        <tbody>
+                          <tr>
+                            <td>Alvin</td>
+                            <td>Eclair</td>
+                            <td>Eclair</td>
+                          </tr>
+                          <tr>
+                            <td>Alan</td>
+                            <td>Jellybean</td>
+                            <td>Eclair</td>
+                          </tr>
+                          <tr>
+                            <td>Jonathan</td>
+                            <td>Lollipop</td>
+                            <td>Eclair</td>
+                          </tr>
+                          <tr>
+                            <td>Jonathan</td>
+                            <td>Lollipop</td>
+                            <td>Eclair</td>
+                          </tr>
+                          <tr>
+                            <td>Jonathan</td>
+                            <td>Lollipop</td>
+                            <td>Eclair</td>
+                          </tr>
+                          <tr>
+                            <td>Jonathan</td>
+                            <td>Lollipop</td>
+                            <td>Eclair</td>
+                          </tr>
+                          <tr>
+                            <td>Jonathan</td>
+                            <td>Lollipop</td>
+                            <td>Eclair</td>
+                          </tr>
+                        </tbody>
+                      </table>
+
+                    </div>
+                  </div>
+                  <div class="row pt-2">
+                    <div class="col s12">
+                      <button class="btn left waves-effect center waves-light" type="submit" name="action">Рассчитать
+                        <i class="material-icons left">keyboard</i>
+                      </button>
+                    </div>
+                  </div>
+                </div>  
+              </div>
+              <!-- fives -->
+              <div class="row">
+                <div class="col-md- pt-3 pb-2">
+                  <div class="row">
+                    <div class="col s12">
+                      <h6 class="center-align desc">Планируемые показатели</h6>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col s12">
+                      <h6 class="center-align desc-small">Структура затрат</h6>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col s12 pb-2 pt-3">
+                      <table>
+                        <thead>
+                          <tr>
+                            <th>Статья затрат</th>
+                            <th>Сумма(BYN)</th>
+                            <th>%</th>
+                          </tr>
+                        </thead>
+
+                        <tbody>
+                          <tr>
+                            <td>Alvin</td>
+                            <td>Eclair</td>
+                            <td>Eclair</td>
+                          </tr>
+                          <tr>
+                            <td>Alan</td>
+                            <td>Jellybean</td>
+                            <td>Eclair</td>
+                          </tr>
+                          <tr>
+                            <td>Jonathan</td>
+                            <td>Lollipop</td>
+                            <td>Eclair</td>
+                          </tr>
+                          <tr>
+                            <td>Jonathan</td>
+                            <td>Lollipop</td>
+                            <td>Eclair</td>
+                          </tr>
+                          <tr>
+                            <td>Jonathan</td>
+                            <td>Lollipop</td>
+                            <td>Eclair</td>
+                          </tr>
+                          <tr>
+                            <td>Jonathan</td>
+                            <td>Lollipop</td>
+                            <td>Eclair</td>
+                          </tr>
+                          <tr>
+                            <td>Jonathan</td>
+                            <td>Lollipop</td>
+                            <td>Eclair</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  <div class="row pt-2">
+                    <div class="col s12 pt-2 pb-2">
+                      <p class="center-align desc-small">Суточные затраты:
+                        <span>2751.01</span>(BYN)</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col s12 pt-2 pb-2">
+                      <p class="center-align desc-small">Суточный объем молока:
+                        <span>7128.00</span>(кг)</p>
+                    </div>
+                  </div>
+                </div>  
+              </div>
+              <!-- six -->
+              <div class="row">
+                <div class="col-md- pt-3 pb-2">
+                  <div class="row">
+                    <div class="col s12">
+                      <h6 class="center-align desc">Планируемые показатели</h6>
+                    </div>
+                  </div>
+                  <div class="row pt-2">
+                    <div class="col s12 pt-2 pb-2">
+                      <p class="center-align desc-small">Выручка:
+                        <span>5161.27</span>(BYN)</p>
+                    </div>
+                  </div>
+                  <div class="row pt-2">
+                    <div class="col s12 pt-2 pb-2">
+                      <p class="center-align desc-small">Прибыль до уплаты налогов:
+                        <span>2410.25</span>(BYN)</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col s12 pt-2 pb-2">
+                      <p class="center-align desc-small">Рентабельность в сутки:
+                        <span>87.61</span>(%)</p>
+                    </div>
+                  </div>
+                </div>  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script type="text/javascript" src="js/nouislider.js"></script>
+  <script type="text/javascript" src="js/scripts.js"></script>
 </body>
 
 </html>

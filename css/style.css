@@ -26,6 +26,10 @@ body{
     text-align: left;
 }
 
+h3{
+    font-weight: bold!important;
+}
+
 .pt-1{
     padding-top: 1rem;
 }
@@ -65,9 +69,22 @@ td, th{
 
 
 .desc{
-    font-size: 26px;
+    font-size: 30px;
     font-weight: bold;
     color: #0069c0; 
+    
+}
+
+.desc-small{
+    font-size: 16px;
+    color: #0069c0;
+    letter-spacing: 0.45px;
+}
+
+.desc-small span{
+    color: black;
+    font-weight: bold;
+    
 }
 
 table{
@@ -87,3 +104,42 @@ h4{
     color: #0069c0;
     font-size: 18px;
 }
+
+.small-text{
+     color: #0069c0;
+}
+
+#slider-format{
+    height: 200px;
+    margin-top: 20px;
+}
+
+#input-format{
+    width: 100px;
+    margin-top: 20px;
+}
+
+#slider-format1{
+    height: 200px;
+    margin-top: 20px;
+}
+
+#input-format1{
+    width: 100px;
+    margin-top: 20px;
+}
+
+#slider-format2{
+    height: 200px;
+    margin-top: 20px;
+}
+
+#input-format2{
+    width: 100px;
+    margin-top: 20px;
+}
+
+.input-field > label{
+    text-align: center;
+}
+
